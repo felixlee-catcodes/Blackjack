@@ -1,0 +1,60 @@
+body {
+    background-image: url(blackjack_background.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+}
+
+h1 {
+    color: goldenrod;
+    margin-top: 50px;
+    font-size: 3rem;
+    border: 5px solid whitesmoke;
+    margin-right: 180px;
+    margin-left: 180px;
+}
+
+p {
+    margin-top: 50px;
+    color: antiquewhite;
+    font-size: 1.5rem;
+}
+
+#dealer {
+    border: 2px white solid;
+    margin-right: 500px;
+    margin-left: 500px;
+}
+
+#message-el {
+ font-style: italic;
+}
+
+button {
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+}
+
+.buttons {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* #newCard-btn {
+   
+} */
+
+/* #start-btn {
+    
+} */
